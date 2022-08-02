@@ -1,0 +1,236 @@
+*body {
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar-brand {
+    font-family: Viga, sans-serif;
+    font-size: 22px;
+    margin-top: 2px;
+    display: flex;
+}
+
+.Logo-Toko {
+    float: left;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.nav-link {
+    font-family: Viga, sans-serif;
+    margin-right: 30px;
+    margin: 0 0 0 10px;
+}
+
+.navbar-toggler {
+    float: right;
+    margin-top: -38px;
+}
+
+.navbar-toggler-icon {
+    margin-top: -5px;
+    width: 20px;
+}
+
+#navbarNavAltMarkup {
+    margin-top: 20px;
+}
+
+/* Dekstop vesion */
+@media (min-width: 992px) {
+    #navbarNavAltMarkup {
+        margin-top: -1px;
+    }
+
+    .navbar-brand {
+        float: left;
+        margin-top: -1px;
+        font-size: 20px;
+    }
+
+    .Logo-Toko {
+        float: left;
+        margin-right: 10px;
+        margin-top: 2px;
+    }
+
+    .collapse {
+        float: right;
+        margin-right: 30px;
+    }
+
+    .nav-link {
+        /* font-size: 32px; */
+        font-size: 1rem;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid #18978f;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-top: -8px;
+    }
+}
+/* Akhir-Navbar */
+
+/* Carousel */
+#A {
+    display: none;
+}
+
+#B {
+    display: flex;
+    justify-content: center;
+}
+
+#B .carousel-inner img {
+    height: 70vh;
+}
+/* Dekstop vesion */
+@media (min-width: 992px) {
+    #A {
+        display: flex;
+        justify-content: center;
+    }
+
+    #B {
+        display: none;
+    }
+
+    #B .carousel-inner {
+    }
+}
+/* Akhir-Carousel */
+
+/* Card */
+/* Card Product */
+
+/* Akhir - Card Product */
+/* Dekstop vesion */
+@media (min-width: 992px) {
+}
+/* Akhir-Card */
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+    background: #18978F;
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+    background: #1da2e0;
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #06444a;
+}
+
+#footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h4 {
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+}
+
+#footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+    color: #fff;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #18978F;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+    background: #06444a;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .copyright {
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width: 575px) {
+    #footer .copyright,
+    #footer .credits {
+        float: none;
+        text-align: center;
+    }
+}
